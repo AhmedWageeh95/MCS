@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/logo1"
+    >
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#d134c3fa"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:gravity="center"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="20dp"
+            android:orientation="vertical">
+
+
+            <EditText
+                android:id="@+id/update_nameEdit"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint=" Name"
+                android:drawableLeft="@drawable/ic_username"
+                android:textColorHint="#000"
+                android:textColor="#000"
+                android:background="@drawable/login_input_bg"
+                android:layout_margin="10dp"
+                android:inputType="text"
+                />
+
+            <EditText
+                android:id="@+id/patient_phoneEdit"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint=" User Name"
+                android:drawableLeft="@drawable/ic_phone"
+                android:textColorHint="#000"
+                android:textColor="#000"
+                android:background="@drawable/login_input_bg"
+                android:layout_margin="10dp"
+                android:inputType="phone"
+
+                />
+
+            <EditText
+                android:id="@+id/update_last_passEdit"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint=" Last Password"
+                android:drawableLeft="@drawable/ic_pass"
+                android:textColorHint="#000"
+                android:textColor="#000"
+                android:background="@drawable/login_input_bg"
+                android:layout_margin="10dp"
+                android:inputType="textPassword"
+                />
+
+            <EditText
+                android:id="@+id/update_new_passEdit"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint=" New Password"
+                android:drawableLeft="@drawable/ic_pass"
+                android:textColorHint="#000"
+                android:textColor="#000"
+                android:background="@drawable/login_input_bg"
+                android:layout_margin="10dp"
+                android:inputType="textPassword"
+                />
+
+            <EditText
+                android:id="@+id/update_confirm_passEdit"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint=" Confirm Password"
+                android:drawableLeft="@drawable/ic_confirm"
+                android:textColorHint="#000"
+                android:textColor="#000"
+                android:background="@drawable/login_input_bg"
+                android:layout_margin="10dp"
+                android:inputType="textPassword"
+                />
+
+
+
+
+            <Button
+
+                android:layout_width="match_parent"
+                android:layout_margin="5dp"
+                android:background="@drawable/login_btn_bg"
+                android:layout_height="wrap_content"
+                android:text="Update"
+                android:textSize="18dp"
+                android:gravity="center"
+                android:textColor="#494747"
+                android:id="@+id/update_activity_btn"/>
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

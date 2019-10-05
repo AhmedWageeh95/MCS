@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="#55e6f6fd"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_marginTop="5sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_marginLeft="2dp"
+            android:text="Add Report"
+            android:layout_marginRight="5dp"
+            android:layout_gravity="center"
+            android:textStyle="bold"
+            android:textColor="#1e1f20"
+            android:textSize="18sp"
+            />
+        <EditText
+            android:layout_marginRight="5sp"
+            android:layout_width="match_parent"
+            android:hint="write report"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:background="@drawable/login_input_bg"
+            android:layout_height="140dp" />
+
+
+    </LinearLayout>
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:text="0K"
+
+        android:onClick="ok5"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:background="@drawable/login_input_bg"
+        />
+</LinearLayout>

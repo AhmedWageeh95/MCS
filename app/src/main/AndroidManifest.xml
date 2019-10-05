@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.awageeh.mcs">
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Sign_up" />
+        <activity
+            android:name=".doctor"
+            android:label="@string/title_activity_doctor"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".profile_doctor" />
+        <activity android:name=".About" />
+        <activity android:name=".Setting" />
+        <activity android:name=".Searchpatient" />
+        <activity android:name=".SearchItem" />
+        <activity android:name=".MyCare" />
+        <activity android:name=".AddTreatment" />
+        <activity android:name=".AddAnalysis" />
+        <activity android:name=".AddDigonese" />
+        <activity android:name=".AddDvice" />
+        <activity android:name=".AddReport"></activity>
+    </application>
+
+</manifest>
